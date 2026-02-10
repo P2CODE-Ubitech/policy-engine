@@ -94,7 +94,7 @@ Also, execute the swagger editor via docker:
 Then, via a browser you have access to the swagger editor. For example, if you run the swagger editor in a host with IP address 192.168.5.142, you can hit in
 the browser the *http://192.168.5.142:8080/*
 
-Define appropriately the .env file.
+Define appropriately the .env file. Then, export these env variables.
 
 There you have to create the IntentSpecification first.
 
