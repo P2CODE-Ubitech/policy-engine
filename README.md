@@ -3,7 +3,7 @@
 
 ## Getting started
 
-This is an implementation of the Maestro's Policy Engine aspect. Using TMF Intent Management 921 API, users can apply the preferable policies in an automatic and clean way.
+This is an implementation of the Service Orchestrator Policy Engine aspect. Using TMF Intent Management 921 API, users can apply the preferable policies in an automatic and clean way.
 
 ## TMF Intent Management API Overview
 
