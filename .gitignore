@@ -1,0 +1,60 @@
+# ----------------------------
+# Python virtual environment
+# ----------------------------
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ----------------------------
+# OS / Editor files
+# ----------------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ----------------------------
+# Logs / Debug
+# ----------------------------
+*.log
+*.out
+*.err
+
+# ----------------------------
+# Generated manifests and Helm charts
+# ----------------------------
+manifests/
+helm/hpa/*/
+
+# Keep chart template structure but ignore generated intent charts
+!helm/hpa/
+!helm/hpa/.gitkeep
+
+# ----------------------------
+# Persisted data (if used)
+# ----------------------------
+*.json
+!TMF921_Intent_Management_v5.0.0.oas.yaml  # keep the OAS file
+
+# ----------------------------
+# Temporary / test artifacts
+# ----------------------------
+tmp/
+test_*/
+*.bak
+*_backup.py
+
+# ----------------------------
+# Environment and Secrets (CRITICAL)
+# ----------------------------
+# Ignore the file containing actual passwords/secrets
+variables.env
+.env.local
+.env.*.local
