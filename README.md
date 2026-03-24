@@ -199,3 +199,8 @@ helm registry login registry.ubitech.eu
 helm package <your-folder> (-> package.tgz, i.e. helm package helm/hpa/poda-scale-intent/)
 helm push <package.tgz> oci://registry.ubitech.eu/nsit/eu-projects/p2code/tmf-server-hpa
 ```
+
+**Acknowledgements**
+🇪🇺 P2CODE project has received funding from the European Union's Horizon Europe research and innovation programme under Grant Agreement No 101093069.
+
+*Disclaimer: Funded by the European Union. Views and opinions expressed are however those of * the author(s) only and do not necessarily reflect those of the European Union or European Commission. Neither the European Union nor the European Commission can be held responsible for them.
